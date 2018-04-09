@@ -1,0 +1,4 @@
+[29-Jan-2018 15:33:22 UTC] PHP Fatal error:  Class 'Symfony\Bundle\FrameworkBundle\Test\WebTestCase' not found in /home/ubuntu/workspace/tests/AppBundle/Controller/DefaultControllerTest.php on line 8
+[29-Jan-2018 15:33:22 UTC] PHP Stack trace:
+[29-Jan-2018 15:33:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/tests/AppBundle/Controller/DefaultControllerTest.php:0
+[26-Mar-2018 06:27:28 UTC] PHP Fatal error:  Class 'Symfony\Bundle\FrameworkBundle\Test\WebTestCase' not found in /home/ubuntu/workspace/tests/AppBundle/Controller/DefaultControllerTest.php on line 7

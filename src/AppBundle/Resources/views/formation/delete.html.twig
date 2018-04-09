@@ -1,0 +1,7 @@
+<html>
+    <body>
+        <h3>Suppression d'une formation effectuée</h3>
+{{ form_start(form, {'action': path('validate_delete_formation', {'id': entity.getId()}) }) }}
+        {{ form(form) }}
+    </body>
+</html>

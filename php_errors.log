@@ -1,0 +1,8 @@
+[26-Feb-2018 15:27:14 UTC] PHP Fatal error:  Uncaught Error: Class 'ApiPlatform\Core\Bridge\Symfony\Bundle\ApiPlatformBundle' not found in /home/ubuntu/workspace/app/AppKernel.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(494): AppKernel->registerBundles()
+#1 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(134): Symfony\Component\HttpKernel\Kernel->initializeBundles()
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(197): Symfony\Component\HttpKernel\Kernel->boot()
+#3 /home/ubuntu/workspace/web/app.php(19): Symfony\Component\HttpKernel\Kernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#4 {main}
+  thrown in /home/ubuntu/workspace/app/AppKernel.php on line 17
